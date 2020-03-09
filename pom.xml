@@ -137,7 +137,24 @@
       </exclusions>
     </dependency>
 
+      <!--&lt;!&ndash;引入alibab 流量监控平台 sentinel&ndash;&gt;-->
+      <!--<dependency>-->
+          <!--<groupId>com.alibaba.csp</groupId>-->
+          <!--<artifactId>sentinel-core</artifactId>-->
+          <!--<version>1.7.1</version>-->
+      <!--</dependency>-->
+      <!-- Sentine -->
+      <dependency>
+          <groupId>org.springframework.cloud</groupId>
+          <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+          <version>0.2.1.RELEASE</version>
+      </dependency>
+
+
+
   </dependencies>
+
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
