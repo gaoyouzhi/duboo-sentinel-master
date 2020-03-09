@@ -1,0 +1,36 @@
+2020-03-09 10:55:21.036 [main] INFO  c.a.b.d.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v0.2.0) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.4) : https://github.com/apache/incubator-dubbo
+ :: Google group : dev@dubbo.incubator.apache.org
+
+2020-03-09 10:55:21.040 [main] INFO  c.a.b.d.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {dubbo.application.name=gyz-dubbo-sentinel-consumer, dubbo.registry.address=172.172.172.47:2181, dubbo.registry.id=gyz-dubbo-sentinel-consumer, dubbo.registry.protocol=zookeeper}
+2020-03-09 10:55:21.096 [main] INFO  com.gyz.DubboSentinelApplication - Starting DubboSentinelApplication on WIN-4890R8O77DI with PID 7460 (E:\gyz_git\dubbo-sentinel-master\target\classes started by Administrator in E:\gyz_git\dubbo-sentinel-master)
+2020-03-09 10:55:21.097 [main] INFO  com.gyz.DubboSentinelApplication - The following profiles are active: test
+2020-03-09 10:55:21.459 [main] INFO  c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+2020-03-09 10:55:21.459 [main] INFO  c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+2020-03-09 10:55:21.460 [main] DEBUG c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - There is no property for binding to dubbo config class [com.alibaba.dubbo.config.ModuleConfig] within prefix [dubbo.module]
+2020-03-09 10:55:21.460 [main] INFO  c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : gyz-dubbo-sentinel-consumer, class : com.alibaba.dubbo.config.RegistryConfig] has been registered.
+2020-03-09 10:55:21.460 [main] INFO  c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : gyz-dubbo-sentinel-consumer] has been registered.
+2020-03-09 10:55:21.460 [main] DEBUG c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - There is no property for binding to dubbo config class [com.alibaba.dubbo.config.ProtocolConfig] within prefix [dubbo.protocol]
+2020-03-09 10:55:21.460 [main] DEBUG c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - There is no property for binding to dubbo config class [com.alibaba.dubbo.config.MonitorConfig] within prefix [dubbo.monitor]
+2020-03-09 10:55:21.460 [main] DEBUG c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - There is no property for binding to dubbo config class [com.alibaba.dubbo.config.ProviderConfig] within prefix [dubbo.provider]
+2020-03-09 10:55:21.460 [main] DEBUG c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - There is no property for binding to dubbo config class [com.alibaba.dubbo.config.ConsumerConfig] within prefix [dubbo.consumer]
+2020-03-09 10:55:21.490 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-09 10:55:21.491 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-09 10:55:21.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-03-09 10:55:21.605 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' of type [com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$825160d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-09 10:55:21.665 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-09 10:55:21.667 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [com.alibaba.boot.dubbo.autoconfigure.RelaxedDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-09 10:55:21.839 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-09 10:55:21.846 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-09 10:55:21.846 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-09 10:55:21.846 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-09 10:55:21.949 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-09 10:55:21.950 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 805 ms
+2020-03-09 10:55:22.172 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-09 10:55:22.273 [main] INFO  c.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2020-03-09 10:55:22.276 [main] INFO  c.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : gyz-dubbo-sentinel-consumer] have been binding by prefix of configuration properties : dubbo.registry
+2020-03-09 10:55:22.567 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-09 10:55:22.582 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-09 10:55:22.584 [main] INFO  com.gyz.DubboSentinelApplication - Started DubboSentinelApplication in 1.798 seconds (JVM running for 2.807)
